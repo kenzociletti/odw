@@ -63,7 +63,29 @@
         </h2>
         <pre>
           <code>
+* {
+  box-sizing: border-box;
+}
 
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  padding: 40px;
+  flex-grow: 1;
+}
+
+section {
+  max-width: 1200px;
+  margin: auto;
+}
           </code>
         </pre>
       </section>
